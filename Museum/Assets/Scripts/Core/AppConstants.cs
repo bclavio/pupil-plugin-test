@@ -5,7 +5,7 @@ public static class AppConstants
 
     #region General Constants
 
-    public static string DefaultEyeTrackingFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\EyeTrackingLog";
+    public static string DefaultEyeTrackingFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\_GazeData";
     public const string DefaultPatientsList = "patientsList.txt";
     #endregion
 
@@ -21,7 +21,7 @@ public static class AppConstants
 
     #region LoggerBehavior Constants
 
-    public const string CsvFirstRow = "UTC_time,milliseconds,timestamp,subject_id,session_id,imageset_id,head_pos_x,head_pos_y,head_pos_z,head_ori_x,head_ori_y,head_ori_z,gaze_hemi_x,gaze_hemi_y,gaze_vr_x,gaze_vr_y,obj_id,obj_pos_x,obj_pos_y,obj_pos_z,gaze_obj_x,gaze_obj_y,gaze_obj_z";
+    public const string CsvFirstRow = "local_time,milliseconds,timestamp,subject_id,session_id,imageset_id,head_pos_x,head_pos_y,head_pos_z,head_ori_x,head_ori_y,head_ori_z,gaze_hemi_x,gaze_hemi_y,gaze_scene_x,gaze_scene_y,obj_id,obj_pos_x,obj_pos_y,obj_pos_z,gaze_obj_x,gaze_obj_y,gaze_obj_z";
 
     #endregion
 }

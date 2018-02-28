@@ -22,7 +22,7 @@ MonoBehaviour:
     IP: 127.0.0.1
     IPHeader: '>tcp://127.0.0.1:'
     PORT: 63426
-    subport: 49828
+    subport: 
     isLocal: 1
     topicList:
     - pupil.
