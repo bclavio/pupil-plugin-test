@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/pupil_plugin/Calibration.unity
-  isLoaded: 1
-  isActive: 1
