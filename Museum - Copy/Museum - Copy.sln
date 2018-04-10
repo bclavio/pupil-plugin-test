@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Museum - Copy", "Assembly-CSharp.csproj", "{FE888393-819D-A948-4DBA-C496F92954F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Museum - Copy", "Assembly-CSharp-Editor.csproj", "{C41CB200-B328-B7F0-299A-FA33F8EC2118}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE888393-819D-A948-4DBA-C496F92954F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE888393-819D-A948-4DBA-C496F92954F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE888393-819D-A948-4DBA-C496F92954F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE888393-819D-A948-4DBA-C496F92954F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41CB200-B328-B7F0-299A-FA33F8EC2118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41CB200-B328-B7F0-299A-FA33F8EC2118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41CB200-B328-B7F0-299A-FA33F8EC2118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41CB200-B328-B7F0-299A-FA33F8EC2118}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
